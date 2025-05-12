@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import ttk
 import subprocess
 
+
 # Function to get the list of S&P 500 tickers
 def get_sp500_tickers():
     url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'

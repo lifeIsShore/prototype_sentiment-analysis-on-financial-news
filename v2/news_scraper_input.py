@@ -6,6 +6,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import os
+
 
 # Set up the Chrome driver
 options = webdriver.ChromeOptions()
@@ -68,7 +70,10 @@ def scrape_yahoo_finance(ticker):
         scroll_attempts += 1
         time.sleep(5)
 
-    output_file = f"{ticker}_news.json"
+    output_dir = "v2\\input"
+    os.makedirs(output_dir, exist_ok=True)
+
+    output_file = os.path.join(output_dir, f"{ticker}_news.json")
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(headlines, f, ensure_ascii=False, indent=4)
 
