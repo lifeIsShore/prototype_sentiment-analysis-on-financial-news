@@ -2,6 +2,8 @@ import pandas as pd
 import tkinter as tk
 from tkinter import ttk
 import subprocess
+from news_cleaner import clean_news_file
+
 
 
 # Function to get the list of S&P 500 tickers
@@ -57,10 +59,13 @@ class AutocompleteEntry(ttk.Entry):
 
 def run_scraper(ticker):
     if ticker:
-        print(f"Running news scraper for {ticker}...")
+        print(f"[•] Running news scraper for {ticker}...")
         subprocess.run(["python", "v2\\news_scraper_input.py", ticker])
+        print(f"[•] Cleaning scraped news for {ticker}...")
+        clean_news_file(ticker)
     else:
         print("Please enter a ticker.")
+
 
 def main():
     root = tk.Tk()

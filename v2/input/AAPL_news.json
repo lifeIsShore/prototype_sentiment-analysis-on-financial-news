@@ -12,8 +12,16 @@
         "text": "President Trump's antitrust cops just received a loud warning about attempts to block any future technology mergers as the FTC lost an attempt to undo Microsoft's $69 billion acquisition of gaming giant Activision Blizzard."
     },
     {
+        "headline": "Trump Announces ‘Total Reset’ With New China Trade Deal",
+        "text": "President Trump announced a 90-day trade deal with China, which will reduce tariffs to 10% from 125%."
+    },
+    {
         "headline": "Apple Stock Rises On Tariff Relief, But Services Challenges Remain Overhang",
         "text": "Apple stock rose after the U.S. and China agreed to a cooling-off period on tariffs. But services business challenges remain an overhang."
+    },
+    {
+        "headline": "Trump Talks With Apple’s Cook as Firm Said to Weigh Price Hikes",
+        "text": "(Bloomberg) -- US President Donald Trump said he spoke with Apple Inc. Chief Executive Officer Tim Cook earlier on Monday, just as the iPhone maker was reported to be considering price increases later this year.Most Read from BloombergA New Central Park Amenity, Tailored to Its East Harlem NeighborsAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsWhat’s Behind the Rise in Serious Injuries on New York City’s Streets?NYC Warns of 17% Drop in Foreign Tourists Due to Trump PoliciesLA"
     },
     {
         "headline": "Stock Market Today: Dow Jones Soars As Bessent Says This On China; Nvidia Surges, Alibaba Clears Entry (Live Coverage)",
@@ -22,6 +30,10 @@
     {
         "headline": "Trump Says He May Speak to Xi This Week After Tariffs Truce",
         "text": "(Bloomberg) -- US President Donald Trump said he would likely speak to Chinese leader Xi Jinping later this week following talks between Washington and Beijing to temporarily lower tariffs and de-escalate the trade war between the world’s two largest economies.Most Read from BloombergA New Central Park Amenity, Tailored to Its East Harlem NeighborsAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsWhat’s Behind the Rise in Serious Injuries on New York City’s Streets?NYC Warns of 17"
+    },
+    {
+        "headline": "Apple Mulls iPhone Price Hikes But Wants to Avoid Blaming Tariffs, Report Says",
+        "text": "Apple is reportedly considering raising prices on its next generation of iPhones expected to be released this fall—but without pinning higher costs on tariffs."
     },
     {
         "headline": "Your New iPhone May Get More Expensive. Apple Won’t Blame Tariffs: Report.",
@@ -68,18 +80,6 @@
         "text": "Meta's stock performance, growth, and valuation are better than Apple's. Apple also faces more uncertainty over the next few years than Meta does. Both stocks could be winners for long-term investors, but Meta appears to be the better pick right now."
     },
     {
-        "headline": "Stocks head higher as US and China agree temporary deal to cut tariffs",
-        "text": "US treasury secretary Scott Bessent said the two sides will slash import duties on each other for 90 days."
-    },
-    {
-        "headline": "Is Apple Inc. (AAPL) the Best Stock to Buy According to Jim Simons’ Renaissance Technologies?",
-        "text": "We recently published a list of 15 Best Stocks to Buy According to Jim Simons’ Renaissance Technologies In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other best stocks to buy according to Jim Simons’ Renaissance Technologies. Even after his passing in 2024, billionaire investor and mathematician […]"
-    },
-    {
-        "headline": "Here's Why I'm Not Too Worried for Alphabet Despite Apple's Potential New AI-Powered Safari Search",
-        "text": "Investors panicked when the possibility was floated, but take a step back and look at the bigger picture."
-    },
-    {
         "headline": "Amazon, Tesla stocks lead 'Magnificent 7' surge after US-China temporary trade truce",
         "text": "Amazon and Tesla stocks led the \"Magnificent Seven\" Big Tech stock surge after the US and China announced a temporary trade war truce."
     },
@@ -92,11 +92,11 @@
         "text": "President Trump's antitrust cops just received a loud warning about attempts to block any future technology mergers as the FTC lost an attempt to undo Microsoft's $69 billion acquisition of gaming giant Activision Blizzard."
     },
     {
-        "headline": "Apple Stock Rises On Tariff Relief, But Services Challenges Remain Overhang",
-        "text": "Apple stock rose after the U.S. and China agreed to a cooling-off period on tariffs. But services business challenges remain an overhang."
+        "headline": "Trump Announces ‘Total Reset’ With New China Trade Deal",
+        "text": "President Trump announced a 90-day trade deal with China, which will reduce tariffs to 10% from 125%."
     },
     {
-        "headline": "Stock Market Today: Dow Jones Soars As Bessent Says This On China; Nvidia Surges, Alibaba Clears Entry (Live Coverage)",
-        "text": "The Dow Jones surged on the stock market today. Treasury Secretary Bessent spoke out on China amid tariff progress. Alibaba cleared an entry."
+        "headline": "Apple Stock Rises On Tariff Relief, But Services Challenges Remain Overhang",
+        "text": "Apple stock rose after the U.S. and China agreed to a cooling-off period on tariffs. But services business challenges remain an overhang."
     }
 ]
