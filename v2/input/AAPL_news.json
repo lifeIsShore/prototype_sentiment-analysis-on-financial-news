@@ -12,12 +12,24 @@
         "text": "President Trump's antitrust cops just received a loud warning about attempts to block any future technology mergers as the FTC lost an attempt to undo Microsoft's $69 billion acquisition of gaming giant Activision Blizzard."
     },
     {
+        "headline": "Top Midday Stories: Shares Rise on US-China 90-Day Trade Ceasefire; Trump Signs Order Targeting High Drug Prices",
+        "text": "All three major US stock indexes were up over 2%, with the Nasdaq Composite up around 3.4% in late-m"
+    },
+    {
         "headline": "Trump Announces ‘Total Reset’ With New China Trade Deal",
         "text": "President Trump announced a 90-day trade deal with China, which will reduce tariffs to 10% from 125%."
     },
     {
+        "headline": "Why Apple Isn’t Fully Liberated from Its Tariff Selloff Yet",
+        "text": "Cooling of trade tensions between the U.S. and China is undeniably good news for Apple. Apple rose around 5% Monday morning, after the U.S. and China struck a deal to partly de-escalate the trade war brewing between the two superpowers. As of midday Monday, Apple’s stock is still down nearly 7% from its pre-Liberation Day price; the other five tech giants commanding market caps above $1 trillion have averaged a gain of 8% since that time."
+    },
+    {
         "headline": "Apple Stock Rises On Tariff Relief, But Services Challenges Remain Overhang",
         "text": "Apple stock rose after the U.S. and China agreed to a cooling-off period on tariffs. But services business challenges remain an overhang."
+    },
+    {
+        "headline": "Mayo Sees JPMorgan Becoming $1 Trillion Bank Within Three Years",
+        "text": "(Bloomberg) -- JPMorgan Chase & Co. could become the first bank to reach a $1 trillion market capitalization within the next three years, according to Wells Fargo.Most Read from BloombergA New Central Park Amenity, Tailored to Its East Harlem NeighborsAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsWhat’s Behind the Rise in Serious Injuries on New York City’s Streets?NYC Warns of 17% Drop in Foreign Tourists Due to Trump PoliciesLA Mayor Credits Trump on Fire Aid, Stays Wary on"
     },
     {
         "headline": "Trump Talks With Apple’s Cook as Firm Said to Weigh Price Hikes",
@@ -44,8 +56,12 @@
         "text": "Tariffs or no tariffs, Apple (AAPL) wants to raise the prices of iPhones — and plans to do everything possible not to blame President Donald Trump for the hike."
     },
     {
-        "headline": "Stocks to Watch Monday: Nvidia, AMD, Broadcom, Apple",
-        "text": "↗️ Amazon (AMZN); Apple (AAPL); Meta (META); Tesla (TSLA): The biggest U.S. tech stocks surged after the White House and China agreed to substantial tariff cuts. Among them, Amazon sells many Chinese-made products on its platform; China is an important market for Tesla; and Apple does much of its assembly in the country."
+        "headline": "Stocks to Watch Monday: Nvidia, AMD, Broadcom, Shopify",
+        "text": "↗️ Amazon (AMZN); Apple (AAPL); Meta (META); Tesla (TSLA): The biggest U.S. tech stocks surged Monday morning after the White House and China agreed to hefty tariff cuts. Amazon sells many Chinese-made products on its platform; China is an important market for Tesla; and Apple does much of its assembly in the country."
+    },
+    {
+        "headline": "Trump Says He Spoke to Tim Cook Following China Deal",
+        "text": "President Trump said he spoke to Apple Chief Executive Tim Cook on Monday, following the announcement of the agreement with China to lower tariffs. Trump added that Cook plans to invest in more Apple plants in the U."
     },
     {
         "headline": "Trump signals he could speak with China's Xi by end of the week",
@@ -64,22 +80,6 @@
         "text": "Greg Abel will replace the legendary CEO Warren Buffett at the end of the year. Apple stock has been the hallmark of Buffett's leadership. Apple is facing many challenges that could be a significant headwind to its growth."
     },
     {
-        "headline": "Apple considers raising iPhone prices, WSJ reports",
-        "text": "The technology giant's shares were up 7% in premarket trading, tracking gains in the wider market after Washington and Beijing agreed to temporarily slash the reciprocal tariffs on Monday. Apple is among the most prominent firms caught in U.S.-China trade tensions, which intensified in recent months after a series of tariffs initiated by President Donald Trump."
-    },
-    {
-        "headline": "Apple Considers Raising iPhone Prices, Without Blaming Tariffs",
-        "text": "The company wants to avoid appearing to attribute price increases to U.S. tariffs on goods from China, where most Apple devices are assembled."
-    },
-    {
-        "headline": "Apple's brutal year keeps getting worse",
-        "text": "A version of this article originally appeared in Quartz’s members-only Weekend Brief newsletter. Quartz members get access to exclusive newsletters and more. Sign up here."
-    },
-    {
-        "headline": "Is Meta Platforms a Better \"Magnificent Seven\" Stock to Buy Right Now Than Apple?",
-        "text": "Meta's stock performance, growth, and valuation are better than Apple's. Apple also faces more uncertainty over the next few years than Meta does. Both stocks could be winners for long-term investors, but Meta appears to be the better pick right now."
-    },
-    {
         "headline": "Amazon, Tesla stocks lead 'Magnificent 7' surge after US-China temporary trade truce",
         "text": "Amazon and Tesla stocks led the \"Magnificent Seven\" Big Tech stock surge after the US and China announced a temporary trade war truce."
     },
@@ -92,11 +92,11 @@
         "text": "President Trump's antitrust cops just received a loud warning about attempts to block any future technology mergers as the FTC lost an attempt to undo Microsoft's $69 billion acquisition of gaming giant Activision Blizzard."
     },
     {
-        "headline": "Trump Announces ‘Total Reset’ With New China Trade Deal",
-        "text": "President Trump announced a 90-day trade deal with China, which will reduce tariffs to 10% from 125%."
+        "headline": "Top Midday Stories: Shares Rise on US-China 90-Day Trade Ceasefire; Trump Signs Order Targeting High Drug Prices",
+        "text": "All three major US stock indexes were up over 2%, with the Nasdaq Composite up around 3.4% in late-m"
     },
     {
-        "headline": "Apple Stock Rises On Tariff Relief, But Services Challenges Remain Overhang",
-        "text": "Apple stock rose after the U.S. and China agreed to a cooling-off period on tariffs. But services business challenges remain an overhang."
+        "headline": "Trump Announces ‘Total Reset’ With New China Trade Deal",
+        "text": "President Trump announced a 90-day trade deal with China, which will reduce tariffs to 10% from 125%."
     }
 ]
