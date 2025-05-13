@@ -52,12 +52,12 @@ def scrape_yahoo_finance(ticker):
     scroll_attempts = 0
     max_scroll_attempts = 5
 
-    while len(headlines) < 25 and scroll_attempts < max_scroll_attempts:
+    while len(headlines) < 35 and scroll_attempts < max_scroll_attempts:
         news_items = driver.find_elements(By.XPATH, '//*[@id="nimbus-app"]/section/section/section/article/section[2]/section/div/div/div/div/ul/li')
         print(f"Found {len(news_items)} news items on this scroll attempt.")
 
         for item in news_items:
-            if len(headlines) >= 25:
+            if len(headlines) >= 35:
                 break
             try:
                 headline = item.find_element(By.XPATH, './/h3').text
