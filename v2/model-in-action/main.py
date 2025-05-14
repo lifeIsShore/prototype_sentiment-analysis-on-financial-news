@@ -113,14 +113,6 @@ def run_prediction(ticker):  # Accept ticker as an argument
     # Count the occurrences of each sentiment type (0: Bearish, 1: Neutral, 2: Bullish)
     values = [label_names.count(label_map[0]), label_names.count(label_map[1]), label_names.count(label_map[2])]
 
-    # Pie chart with fixed colors
-    plt.figure(figsize=(6, 6))
-    plt.pie(values, labels=labels, autopct='%1.1f%%', colors=colors, startangle=140)
-    plt.title(f"Sentiment Distribution for {ticker}")  # Include ticker in the title
-    plt.axis('equal')
-    plt.tight_layout()
-    plt.savefig(f"v2/model-in-action/sentiment_distribution_{ticker}.png")  # Save with ticker
-    plt.show()
 
     # Insight
     total = sum(counts.values())
@@ -134,6 +126,16 @@ def run_prediction(ticker):  # Accept ticker as an argument
         print("Sentiment is bearish — stock might decline.")
     else:
         print("Mixed or neutral sentiment — no dramatic change expected.")
+
+
+    # Pie chart with fixed colors
+    plt.figure(figsize=(6, 6))
+    plt.pie(values, labels=labels, autopct='%1.1f%%', colors=colors, startangle=140)
+    plt.title(f"Sentiment Distribution for {ticker}")  # Include ticker in the title
+    plt.axis('equal')
+    plt.tight_layout()
+    plt.savefig(f"v2/model-in-action/sentiment_distribution_{ticker}.png")  # Save with ticker
+    plt.show()
 
 # === GUI ===
 def main():
