@@ -70,7 +70,7 @@ def scrape_yahoo_finance(ticker):
         scroll_attempts += 1
         time.sleep(5)
 
-    output_dir = "v2\\input"
+    output_dir = "v2\\input\\cleansed-not_labeled"
     os.makedirs(output_dir, exist_ok=True)
 
     output_file = os.path.join(output_dir, f"{ticker}_news.json")

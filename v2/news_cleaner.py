@@ -42,8 +42,8 @@ def clean_text(text):
     return cleaned
 
 def clean_news_file(ticker):
-    input_path = os.path.join("v2", "input", f"{ticker}_news.json")
-    output_path = os.path.join("v2", "input", f"{ticker}_news_cleaned.json")
+    input_path = os.path.join("v2", "input","cleansed-not_labeled", f"{ticker}_news.json")
+    output_path = os.path.join("v2", "input","cleansed-not_labeled", f"{ticker}_news_cleaned.json")
 
     # Load raw news
     with open(input_path, 'r', encoding='utf-8') as f:
