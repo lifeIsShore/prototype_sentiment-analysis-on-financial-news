@@ -1,3 +1,15 @@
+# Loads the saved TF-IDF features and labels
+# Splits the data (chronologically or randomly)
+# Trains:
+# LogisticRegression (with class_weight='balanced')
+# XGBClassifier
+# Evaluates using:
+# Accuracy
+# F1-score (with emphasis on class-specific scores)
+# Confusion Matrix
+# ROC AUC (macro)
+
+
 import numpy as np
 import pickle
 from sklearn.linear_model import LogisticRegression
@@ -34,7 +46,7 @@ xgb.fit(X_train, y_train)
 y_pred_xgb = xgb.predict(X_test)
 
 # === Evaluation Function ===
-def evaluate_model(y_true, y_pred, model_name):
+def evaluate_model(model, X_test, y_true, y_pred, model_name):
     print(f"\nEvaluation for: {model_name}")
     print("Accuracy:", accuracy_score(y_true, y_pred))
     print("F1 Score (macro):", f1_score(y_true, y_pred, average="macro"))
@@ -56,5 +68,5 @@ def evaluate_model(y_true, y_pred, model_name):
         print("ROC AUC could not be calculated.")
 
 # === Evaluate Both Models ===
-evaluate_model(y_test, y_pred_logreg, "Logistic Regression")
-evaluate_model(y_test, y_pred_xgb, "XGBoost Classifier")
+evaluate_model(logreg, X_test, y_test, y_pred_logreg, "Logistic Regression")
+evaluate_model(xgb, X_test, y_test, y_pred_xgb, "XGBoost Classifier")
