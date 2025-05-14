@@ -1,3 +1,9 @@
+#the main pipeline runner .py
+#news_scrapper_input.py will be triggered
+#news_cleaner.py will be triggered
+#then the new cleansed news are stored in input with name as ..._news_cleaned.json
+
+
 import pandas as pd
 import tkinter as tk
 from tkinter import ttk

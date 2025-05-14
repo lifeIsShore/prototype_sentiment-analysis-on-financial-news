@@ -1,3 +1,5 @@
+#that is a cleansing script for only the labeled data which labeled and exported as json from label-studio
+
 import json
 import os
 
