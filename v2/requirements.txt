@@ -6,3 +6,4 @@ xgboost==1.7.6
 matplotlib
 seaborn
 sentence-transformers
+lightgbm
