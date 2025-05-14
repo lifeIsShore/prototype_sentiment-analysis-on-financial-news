@@ -42,10 +42,10 @@ def clean_text(text):
     return cleaned
 
 def clean_news_file(ticker, output_dir=None):
-    input_path = os.path.join("v2", "input", "cleansed-not_labeled", f"{ticker}_news.json")
+    input_path = os.path.join("v2", "model-in-action", "cleansed-news", f"{ticker}_news.json")
 
     if output_dir is None:
-        output_dir = os.path.join("v2", "input", "cleansed-not_labeled")
+        output_dir = os.path.join("v2", "model-in-action", "cleansed-news")
     os.makedirs(output_dir, exist_ok=True)
 
     output_path = os.path.join(output_dir, f"{ticker}_news_cleaned.json")
