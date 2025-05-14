@@ -1,3 +1,15 @@
+# Loads the saved TF-IDF features and labels
+# Splits the data (chronologically or randomly)
+# Trains:
+# LogisticRegression (with class_weight='balanced')
+# XGBClassifier
+# Evaluates using:
+# Accuracy
+# F1-score (with emphasis on class-specific scores)
+# Confusion Matrix
+# ROC AUC (macro)
+
+
 import numpy as np
 import pickle
 from sklearn.linear_model import LogisticRegression

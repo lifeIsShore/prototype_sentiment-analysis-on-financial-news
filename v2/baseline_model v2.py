@@ -1,15 +1,21 @@
-# tf idf + bert
+# Converts text into TF-IDF features.
+# Optionally adds VADER sentiment scores as extra features.
+# Trains both Logistic Regression and XGBoost models.
+
 import json
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix, roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sentence_transformers import SentenceTransformer
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+import nltk
+
+nltk.download("vader_lexicon")
 
 # === Load Dataset ===
 json_path = r"C:\Users\ahmty\Desktop\HFU\6 Sechstesemester\NLP\project\prototype\v2\input\labeled_data\training_dataset\training_dataset.json"
@@ -27,12 +33,12 @@ y = label_encoder.fit_transform(labels)
 tfidf = TfidfVectorizer(max_features=5000)
 X_tfidf = tfidf.fit_transform(texts).toarray()
 
-# === BERT Embeddings (Sentence-BERT) ===
-model_bert = SentenceTransformer("all-MiniLM-L6-v2")
-X_bert = model_bert.encode(texts)
+# === Add VADER Sentiment Scores ===
+sia = SentimentIntensityAnalyzer()
+vader_scores = np.array([[d["neg"], d["neu"], d["pos"], d["compound"]] for d in [sia.polarity_scores(t) for t in texts]])
 
-# === Combine TF-IDF and BERT ===
-X_combined = np.hstack((X_tfidf, X_bert))
+# === Combine TF-IDF and VADER ===
+X_combined = np.hstack((X_tfidf, vader_scores))
 
 # === Train-Test Split ===
 X_train, X_test, y_train, y_test = train_test_split(X_combined, y, test_size=0.2, stratify=y, random_state=42)
@@ -69,6 +75,5 @@ def evaluate_model(model, X_test, y_true, y_pred, model_name):
         print("ROC AUC could not be calculated:", str(e))
 
 # === Evaluate ===
-evaluate_model(logreg, X_test, y_test, y_pred_logreg, "Logistic Regression (TF-IDF + BERT)")
-evaluate_model(xgb, X_test, y_test, y_pred_xgb, "XGBoost Classifier (TF-IDF + BERT)")
-
+evaluate_model(logreg, X_test, y_test, y_pred_logreg, "Logistic Regression")
+evaluate_model(xgb, X_test, y_test, y_pred_xgb, "XGBoost Classifier")
