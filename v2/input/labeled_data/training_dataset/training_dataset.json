@@ -5,6 +5,26 @@
     "sentiment": "Bullish"
   },
   {
+  "headline": "await fresh catalyst pre bell wall street asia europe",
+  "text": "wall street future point sideway pre bell wednesday await fresh catalyst w",
+  "sentiment": "Neutral"
+},
+{
+  "headline": "zack industry outlook highlight cardinal health labcorp align technology",
+  "text": "cardinal health labcorp align technology highlight industry outlook article",
+  "sentiment": "Neutral"
+},
+{
+  "headline": "zack industry outlook highlight cf industry mosaic yara international",
+  "text": "cf industry mosaic yara international highlight industry outlook article",
+  "sentiment": "Neutral"
+},
+{
+  "headline": "zacks.com feature highlight stoneco centene cvs health pfizer",
+  "text": "stoneco centene cvs health pfizer highlight screen week article",
+  "sentiment": "Neutral"
+},      
+  {
     "headline": "secret behind magnificent 7 surge ahead nvidia earning",
     "text": "catch opening bid apple podcast spotify youtube wherever get podcast magnificent 7 perform strongly even chipmaker nvidia earning report due may 28 leadership group largely underperformed 2025 due concern macroeconomic risk see rally since april 8 low resurgence attribute couple key factor first tech mega cap like microsoft msft alphabet googl googl significantly exceed earning estimate barclay datum indicate large cap tech company beat analyst earning estimate average 8 first quarter second earning growth major tech player first quarter impressive goldman sachs gs datum reveal large cap tech within mag 7 achieve average earning growth 28 first quarter compare 9 493 p 500 full episode open bid listen favorite podcast platform watch website yahoo opening bid produce langston sessoms",
     "sentiment": "Bullish"
@@ -1338,5 +1358,51 @@
     "headline": "honda canada postpone multibillion ev project ontario",
     "text": "honda canada postpone $ 15 billion canadian us$10.7 billion electric vehicle project canada populous province include propose ev battery plant retool vehicle assembly facility honda canada spokesman ken chiu say tuesday due recent slowdown ev honda announce approximate two year postponement comprehensive value chain project ontario",
     "sentiment": "Bearish"
-  }
+  },
+  {
+  "headline": "trump trade war china may never totally former commerce secretary wilbur ross",
+  "text": "former us commerce secretary wilbur ross send sobering signal renew bull",
+  "sentiment": "Bearish"
+},
+{
+  "headline": "u.s expensive unlikely continue make new high bca",
+  "text": "investing.com despite improve trade policy sentiment rebound bca research warn note wednesday u.s may struggle sustain upward momentum due elevated tariff relate headwind",
+  "sentiment": "Bearish"
+},
+{
+  "headline": "halozyme therapeutics inc halo decline tuesday",
+  "text": "recently publish article title massive sell hit 10 today article go take look halozyme therapeutics inc nasdaq halo stand wall street main finish mix tuesday digest country late inflation figure come low",
+  "sentiment": "Bearish"
+},
+{
+  "headline": "unitedhealth group incorporate unh decline tuesday",
+  "text": "recently publish article title massive sell hit 10 today article go take look unitedhealth group incorporate nyse unh stand wall street main finish mix tuesday digest country late inflation figure come low",
+  "sentiment": "Bearish"
+},
+{
+  "headline": "xenon pharmaceuticals inc xene decline tuesday",
+  "text": "recently publish article title massive sell hit 10 today article go take look xenon pharmaceuticals inc nasdaq xene stand wall street main finish mix tuesday digest country late inflation figure come low",
+  "sentiment": "Bearish"
+},
+{
+  "headline": "rigetti computing inc rgti decline tuesday",
+  "text": "recently publish article title massive sell hit 10 today article go take look rigetti computing inc nasdaq rgti stand wall street main finish mix tuesday digest country late inflation figure come low",
+  "sentiment": "Bearish"
+},
+{
+  "headline": "oddity tech ltd odd decline tuesday",
+  "text": "recently publish article title massive sell hit 10 today article go take look oddity tech ltd nasdaq odd stand wall street main finish mix tuesday digest country late inflation figure come low",
+  "sentiment": "Bearish"
+},
+{
+  "headline": "international game technology plc igt decline tuesday",
+  "text": "recently publish article title massive sell hit 10 today article go take look international game technology plc nyse igt stand wall street main finish mix tuesday digest country late inflation figure come",
+  "sentiment": "Bearish"
+},
+{
+  "headline": "bridgebio pharma inc bbio decline tuesday",
+  "text": "recently publish article title massive sell hit 10 today article go take look bridgebio pharma inc nasdaq bbio stand wall street main finish mix tuesday digest country late inflation figure come low",
+  "sentiment": "Bearish"
+}
+
 ]
