@@ -74,12 +74,12 @@ def run_scraper(ticker):
         print(f"[•] Cleaning scraped news for {ticker}...")
         clean_news_file(ticker, output_dir=CLEANSING_OUTPUT_DIR)
         print("[✓] Cleansing complete. Running prediction...")
-        run_prediction()
+        run_prediction(ticker)  # Pass ticker here
     else:
         print("Please enter a ticker.")
 
 # === Run Prediction and Show Results ===
-def run_prediction():
+def run_prediction(ticker):  # Accept ticker as an argument
     with open(MODEL_PATH, "rb") as f:
         model = pickle.load(f)
     with open(VECTORIZER_PATH, "rb") as f:
@@ -103,16 +103,23 @@ def run_prediction():
     label_map = {0: "Bearish", 1: "Neutral", 2: "Bullish"}
     label_names = [label_map[i] for i in preds]
 
-    # Pie chart
-    labels = list(set(label_names))
-    values = [label_names.count(l) for l in labels]
+    # Define the fixed color mapping for sentiment
+    color_map = {0: "red", 1: "gray", 2: "green"}
 
+    # Create the list of labels and their corresponding colors
+    labels = [label_map[0], label_map[1], label_map[2]]
+    colors = [color_map[0], color_map[1], color_map[2]]
+
+    # Count the occurrences of each sentiment type (0: Bearish, 1: Neutral, 2: Bullish)
+    values = [label_names.count(label_map[0]), label_names.count(label_map[1]), label_names.count(label_map[2])]
+
+    # Pie chart with fixed colors
     plt.figure(figsize=(6, 6))
-    plt.pie(values, labels=labels, autopct='%1.1f%%', colors=["red", "green", "gray"], startangle=140)
-    plt.title("Sentiment Distribution")
+    plt.pie(values, labels=labels, autopct='%1.1f%%', colors=colors, startangle=140)
+    plt.title(f"Sentiment Distribution for {ticker}")  # Include ticker in the title
     plt.axis('equal')
     plt.tight_layout()
-    plt.savefig("v2/model-in-action/sentiment_distribution.png")
+    plt.savefig(f"v2/model-in-action/sentiment_distribution_{ticker}.png")  # Save with ticker
     plt.show()
 
     # Insight
