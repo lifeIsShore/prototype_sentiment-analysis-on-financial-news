@@ -8,6 +8,8 @@ import pickle
 from news_cleaner import clean_news_file
 from collections import Counter
 import matplotlib.pyplot as plt
+import datetime
+
 
 # === SETTINGS ===
 CLEANSING_OUTPUT_DIR = r"C:\Users\ahmty\Desktop\HFU\6 Sechstesemester\NLP\project\prototype\v2\model-in-action\cleansed-news"
@@ -134,7 +136,8 @@ def run_prediction(ticker):  # Accept ticker as an argument
     plt.title(f"Sentiment Distribution for {ticker}")  # Include ticker in the title
     plt.axis('equal')
     plt.tight_layout()
-    plt.savefig(f"v2/model-in-action/sentiment_distribution_{ticker}.png")  # Save with ticker
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    plt.savefig(f"v2/model-in-action/sentiment_distribution_{ticker}_{timestamp}.png")
     plt.show()
 
 # === GUI ===
