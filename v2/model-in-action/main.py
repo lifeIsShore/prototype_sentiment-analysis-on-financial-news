@@ -137,7 +137,7 @@ def run_prediction(ticker):  # Accept ticker as an argument
     plt.axis('equal')
     plt.tight_layout()
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    plt.savefig(f"v2/model-in-action/sentiment_distribution_{ticker}_{timestamp}.png")
+    plt.savefig(f"v2/model-in-action/charts/sentiment_distribution_{ticker}_{timestamp}.png")
     plt.show()
 
 # === GUI ===
